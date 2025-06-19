@@ -6,9 +6,30 @@
     <title>Final Fantasy VII Fan Site</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="h-screen w-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('images/ff7background.jpg');">
-    <div class="absolute top-6 left-1/2 transform -translate-x-[40%]">
-  <img src="images/ff7logo.png" alt="Final Fantasy VII Logo" class="w-[400px] max-w-[90%] drop-shadow-[0_0_15px_rgba(0,0,0,0.8)]" />
-  </div>
-</body>
+
+  <!-- Background image -->
+  <body class="min-h-screen w-full bg-cover bg-center relative text-white" style="background-image: url('images/ff7background.jpg');">
+
+    <!-- FF7 logo positioned floating above content -->
+    <div class="absolute top-[240px] left-1/2 transform -translate-x-1/2 z-10">
+      <img src="images/ff7logo.png" alt="Final Fantasy VII Logo"
+        class="w-[300px] md:w-[400px] drop-shadow-[0_0_15px_rgba(0,0,0,0.8)]" />
+    </div>
+
+    <!-- Main scrollable content -->
+    <div class="mt-[300px] p-8">
+      <!-- Welcome text -->
+      <p class="mb-4 text-xl font-semibold text-center">
+        Welcome to the Final Fantasy VII fan site. Scroll down to explore Midgar, characters, lore, and more!
+      </p>
+
+      <!-- Content box with background -->
+      <div class="relative z-0 bg-black bg-opacity-40 rounded-lg p-6 h-[1500px]">
+        <p class="text-lg">
+          This is a placeholder for your upcoming content: character cards, game timeline, fan gallery, etc.
+        </p>
+      </div>
+    </div>
+
+  </body>
 </html>
